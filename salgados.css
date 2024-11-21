@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+	height: 100%;
+      }
+header {
+    width: 100%;
+	height: 0%;
+    background-color:#002150;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    background-color:#6790ff;
+    height:0%;
+    width:100%;
+    padding:0%;
+    text-align: center;
+	word-spacing: 5.2em;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #2943aa;
+}
+section {
+    height:60%;
+    width:60%;
+    float:left;
+    padding:5px;	
+    text-align:center;
+    margin-left: 10%;
+}
+.uni{
+    background: linear-gradient(45deg, blue, white);
+}
+h2{
+    text-align: center;
+}
+h1,u{
+    text-align: center;
+    color: #002c9c;
+    font-family: 'Spicy Rice';
+}
+aside {
+    height: 800px;
+    width:150px;
+    background-color:#5360a0;
+    float:right;
+    padding:0.5%;
+    border-width: 7px; 
+    border-style: solid;
+    border-color: #070050;  
+}
+footer {
+    width: 100%;
+	height: 8%;
+    background-color:#001150;
+    color:white;
+    clear: inline-end;
+    text-align:center;
+    padding:5px;	
+	
+}
+img{
+    width: 20%;
+	height: 100%;
+    transition: 0.75s;
+    margin: 0.25%;
+    text-align: center;
+    border-radius: 10%;
+}
+a{
+    transition: .5s;
+    color: #00179c;
+    font-family: 'Comic Sans MS';
+}
+.mudaSite:hover{
+    color: #000950;
+    transition: .25s;
+}
+.img{
+    margin: auto 2%;
+    border: .02cm solid black;
+    margin-top: auto 100%;
+}
+#pudim:hover,#canjica:hover,#pacoca:hover,#torta:hover{
+    border: 0.05cm solid #ff8800;
+}
+#chocolate:hover,#pacoca:hover{
+    border: 0.05cm solid #693800;
+}
+#mousse:hover,#bicho:hover{
+    border: 0.05cm solid #ff88f5;
+}
+#pamonha:hover{
+    border: 0.05cm solid #fffb00;
+}
+#goiabada:hover{
+    border: 0.05cm solid #a80000;
+}
+.img:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+    transition: 0.75s;
+    border-radius: 25%;
+}
+@keyframes pulse{
+    0%,100%{
+        transform: scale(1);
+    }
+    25%,75%{
+        transform: scale(.95);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+.beb{
+    width: 100%;
+	height: 20%;
+    transition: 0.75s;
+    margin: 0.25%;
+    text-align: center;
+    border-radius: 10%;
+    margin: auto 2%;
+    border: .02cm solid black;
+}
+.txtbeb,.linkimg{
+    color: white;
+}
+#esc1,#esc4,#esc7{
+    text-align: left;
+    float: left;
+    margin-left: 25%;
+}
+#esc2,#esc5,#esc8{
+    text-align: left;
+    margin-left: 0%;
+}
+#esc3,#esc6,#esc9{
+    text-align: right;
+    float: right;
+    margin-right: 20%;
+}
+
+
+/*
+4200FF
+0094FF
+*/
